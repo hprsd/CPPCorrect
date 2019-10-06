@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream.h>
 using namespace std;
 int main() 
 {    
@@ -7,4 +7,5 @@ int main()
     cout << "Size of float: " << sizeof(float) << " bytes" << endl;
     cout << "Size of double: " << sizeof(double) << " bytes" << endl;
     return 0;
+//This code is perfect and almost requires no more corrections
 }
