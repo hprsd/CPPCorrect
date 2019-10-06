@@ -1,14 +1,16 @@
-#include <iostream>
+#include <iostream.h>
 using namespace std;
 int main()
 {
-    int firstNumber, secondNumber, sumOfTwoNumbers;
+    clrscr();
+    int A,B,C;
     
     cout << "Enter two integers: ";
-    cin >> firstNumber >> secondNumber;
+    cin >>A>>B;
     // sum of two numbers in stored in variable sumOfTwoNumbers
-    sumOfTwoNumbers = firstNumber + secondNumber;
+    C = A+B;
     // Prints sum 
-    cout << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
+    cout << A << " + " <<  B << " = " << C;     
     return 0;
 }
+// Code should not be time consuming.
